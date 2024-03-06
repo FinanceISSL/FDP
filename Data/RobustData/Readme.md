@@ -16,3 +16,7 @@ The list of two prior studies:
 - [1] D. Liang, C.-C. Lu, C.-F. Tsai, and G.-A. Shih, “Financial ratios and corporate governance indicators in bankruptcy prediction: A comprehensive study,” Eur. J. Oper. Res., vol. 252, no. 2, pp. 561–572, 2016.
 - [2] Y. P. Huang and M. F. Yen, “A new perspective of performance comparison among machine learning algorithms for financial distress prediction,” Appl. Soft Comput. J., vol. 83, p. 105663, 2019.
 -------------------------------------
+# Convert each .csv file to .mat file
+First, read the .csv file then save it into .mat file.
+1. matchedFirmsHYRatios = csvread("matchedFirmsHYRatios.csv")
+2. save("matchedFirmsHYRatios.mat","matchedFirmsHYRatios")
